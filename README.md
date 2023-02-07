@@ -3,17 +3,17 @@
 ---
 
 
-- 글자 크기 확대 및 축소
+- **글자 크기 확대 및 축소**
 	- ctrl + "+" (확대)
 	- ctrl + "-" (축소)
   
   
-- 변수명 한번에 바꾸기
+- **변수명 한번에 바꾸기**
 	- alt + shift + r
 	- 우클릭 -> Refactor -> rename
 
 
-- 자동 import
+- **자동 import**
 	- ctrl + shift + o
 	
 	
