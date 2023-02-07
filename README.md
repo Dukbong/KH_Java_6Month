@@ -1,4 +1,3 @@
-# Java Study
 ---
 ### Eclipse 사소한 팁
 
