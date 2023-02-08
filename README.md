@@ -9,8 +9,8 @@
   
   
 - **변수명 한번에 바꾸기**
-	- alt + shift + r
-	- 우클릭 -> Refactor -> rename
+	- 방법 1) alt + shift + r
+	- 방법 2) 우클릭 -> Refactor -> rename
 
 
 - **자동 import**
