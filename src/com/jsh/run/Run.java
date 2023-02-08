@@ -3,6 +3,7 @@ package com.jsh.run;
 import com.jsh.study.A_TicTacToe;
 import com.jsh.study.B_ArrayStudy;
 import com.jsh.study.C_Singleton;
+import com.jsh.study.F_TwoDimensionalArray;
 
 public class Run {
 	public static void main(String[] args) {
@@ -24,5 +25,8 @@ public class Run {
 		
 		s1.call("A_TicTacToe.java");
 		s2.call("B_ArrayStudy.java");
+		
+		F_TwoDimensionalArray f = new F_TwoDimensionalArray();
+		f.study();
 	}
 }
