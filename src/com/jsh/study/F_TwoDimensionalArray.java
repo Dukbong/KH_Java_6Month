@@ -36,5 +36,30 @@ public class F_TwoDimensionalArray {
 		
 		int[][] arr2 = {{1,2,3},{4,5,6}}; // 선언과 초기화를 같이 해준다.
 		System.out.println(Arrays.deepToString(arr2)); // 2차원 배열을 한줄로 표현해 준다.
+		
+		int[][] arr3 = new int[3][]; 
+		System.out.println(arr3); // "[[" 주소
+		System.out.println(arr3[0]); // Null
+		System.out.println(arr.length); // 3
+		
+		try {
+			System.out.println(arr[0].length); // NullPointerException 발생
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+		
+		int num = 1;
+		for(int i = 0; i < arr3.length; i++) {
+			arr3[i] = new int[i + 1];
+			for(int j = 0; j < arr3[i].length; j++) {
+				System.out.printf("%-5d", arr3[i][j]);
+			}
+			System.out.println();
+		}
+		/* 0
+		 * 00
+		 * 000
+		 * */
+		
 	}
 }
