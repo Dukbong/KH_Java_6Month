@@ -48,7 +48,6 @@ public class F_TwoDimensionalArray {
 			System.out.println(e);
 		}
 		
-		int num = 1;
 		for(int i = 0; i < arr3.length; i++) {
 			arr3[i] = new int[i + 1];
 			for(int j = 0; j < arr3[i].length; j++) {
