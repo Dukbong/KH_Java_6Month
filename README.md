@@ -32,6 +32,7 @@
 
 |ClassName|
 |:---:|
+|:---|
 |- name : String<br>- age : int<br>- phone : String|
 |+ setter() : void<br>+ getter() : 각 자료형|
 
