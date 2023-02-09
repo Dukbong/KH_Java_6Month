@@ -26,3 +26,15 @@
 	
 	
 ---
+
+- **클래스 다이어그램**
+-----------
+Class Name
+-----------
+-name : String
+-age : int
+-gender : char
+-phone : String
+-----------
++setter() : void
++getter() : Value
