@@ -32,8 +32,8 @@
 
 |ClassName|
 |:---|
-|Field<br>- name : String<br>- age : int<br>- phone : String|
-|Construct<br>+ ClassName()<br>+ ClassName(name:String)|
-|Method<br>+ setter() : void<br>+ getter() : 각 자료형|
+|[Field]<br>- name : String<br>- age : int<br>- phone : String|
+|[Construct]<br>+ ClassName()<br>+ ClassName(name:String)|
+|[Method]<br>+ setter() : void<br>+ getter() : 각 자료형|
 
 
