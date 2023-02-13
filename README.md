@@ -23,7 +23,18 @@
 
 - **소스 코드 빠른복사**
 	- 드래그 + ctrl + alt + 방향키
-	
+
+
+- **생성자 및 getter & setter 자동 완성**
+	- alt + shift + Getter and Setter
+	- alt + shift + Constructor Using Fields
+		- Fields 체크 안할 경우 기본 생성자
+		- 체크 시 해당 Fields 매개변수 생성자
+		
+- **toString() OverRide**
+	- alt + shift + toString
+	- toString()의 경우 println()시 생략 가능
+
 	
 ---
 
@@ -36,4 +47,6 @@
 |[Construct]<br>+ ClassName()<br>+ ClassName(name:String)|
 |[Method]<br>+ setter() : void<br>+ getter() : 각 자료형|
 
+
+---
 
