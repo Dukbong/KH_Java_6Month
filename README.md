@@ -34,6 +34,12 @@
 - **toString() OverRide**
 	- alt + shift + toString
 	- toString()의 경우 println()시 생략 가능
+	
+- **소스 코드 정렬**
+	- alt + shift + f
+	
+- **패키지에서 클래스 만들기 단축키**
+	- ctrl + n
 
 	
 ---
