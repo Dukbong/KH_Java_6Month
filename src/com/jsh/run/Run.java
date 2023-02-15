@@ -1,14 +1,16 @@
 package com.jsh.run;
 
-import com.jsh.study.J_Collection;
+import com.jsh.study.H_Bfs;
 
 
 
 public class Run {
 	
 	public static void main(String[] args) {
-		J_Collection j = new J_Collection();
-		j.Test();
+		H_Bfs h = new H_Bfs();
+		h.solution(new int[5][5]);
+//		J_Collection j = new J_Collection();
+//		j.Test();
 		 // TicTacToe Game Start
 //		try {
 //			A_TicTacToe.GameStart();
