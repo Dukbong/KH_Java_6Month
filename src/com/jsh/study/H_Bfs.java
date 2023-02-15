@@ -41,6 +41,12 @@ public class H_Bfs {
                 // 갈 수 있는 길은 1로 되어있기 떄문에 최종적으로 몇번만에 갔는지 확인하려면 이전 값 + 1을 계속해서 늘려간다.
             }
         }
+        for(int i = 0; i < check.length; i++) {
+        	for(int j = 0; j < check[i].length; j++) {
+        		System.out.printf("%d\t",check[i][j]);
+        	}
+        	System.out.println();
+        }
         if(check[maps.length - 1][maps[0].length -1] == 1){
             return answer; // 전체다 돌았지만 도착지점이 1이라면 도착할 수 없는 길이 때문에 오류의 목적으로 -1을 리턴해준다.
         }else{
