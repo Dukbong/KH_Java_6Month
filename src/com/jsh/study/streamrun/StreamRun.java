@@ -35,6 +35,8 @@ public class StreamRun {
 				map.put("char2", io4.char2(i++)); // char1에서 썻던 PrintWriter가 아닌
 				map.put("char3", io5.char3(i++)); // 커스텀 해본거
 				
+				// 뭐가 빠를지 알아보려고 했으나....결론은 1byte씩 가져오는거 빼곤 사실상 무의미 하고 println보다는 BufferedWrite가 빠르다 정도이다.
+				
 				List<Map.Entry<String,Long>> list = new LinkedList<>(map.entrySet());
 				list.sort(Map.Entry.comparingByValue());
 				int check = 0;
