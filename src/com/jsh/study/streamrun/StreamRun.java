@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.StringTokenizer;
 
 import com.jsh.study.stream.IOStream;
 import com.jsh.study.stream.IOStream2;
@@ -38,9 +37,11 @@ public class StreamRun {
 				// 뭐가 빠를지 알아보려고 했으나....결론은 1byte씩 가져오는거 빼곤 사실상 무의미 하고 println보다는 BufferedWrite가 빠르다 정도이다.
 				
 				List<Map.Entry<String,Long>> list = new LinkedList<>(map.entrySet());
-				list.sort(Map.Entry.comparingByValue());
+				list.sort(Map.Entry.comparingByValue()); // value기준으로 작은거부터 나온다.
 				int check = 0;
-				for(Map.Entry<String, Long> show : list) {
+				for(Map.Entry<String, Long> show : list) { // 그냥 생각해본거 >> Stack에 다 집어넣고 빼면 역순으로 나온다. 근데 굳이 그럴 필요 없다. 그냥 역순으로 정렬하는게 빠르다.
+					// 집어넣다 빼면 작업이 하나더 늘어난다.
+					// 근데 또 하기 귀찮다......
 					System.out.println("Method::" + show.getKey() + ", RunTime::" + show.getValue());
 					if(check == 1) {
 						sb.append(show.getKey() + ",");
@@ -49,6 +50,7 @@ public class StreamRun {
 				}
 				System.out.println("==========================================");
 //			}
+				// 커스텀이랑 bufferedWrite랑 누가누가 빠른가 알아보려고 ....했는데 그거도 다 비슷함..
 			String str = sb.toString();
 			String[] arr = str.split(",");
 			int[] checkArr = new int[2];

@@ -13,15 +13,14 @@ public class ReadStream3 {
 		BufferedReader br = new BufferedReader(new FileReader("src/com/jsh/study/H_Bfs.java"));
 		BufferedWriter out2 = new BufferedWriter(new FileWriter("src/com/jsh/study/stream/show/Test" + i + ".txt"));
 		
-		Queue<String> list = new LinkedList<>();
+		StringBuffer st = new StringBuffer();
+		
 		String str = null;
 		
 		while((str = br.readLine()) != null) {
-			list.add(str);
+			st.append(str);
 		}
-		while(!list.isEmpty()) {
-			out2.write(list.poll());
-		}
+		out2.write(st.toString());
 		
 		br.close();
 		out2.close();
