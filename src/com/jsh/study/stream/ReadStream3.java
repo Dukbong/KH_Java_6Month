@@ -4,8 +4,6 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class ReadStream3 {
 	public long char3(int i) throws Exception {
