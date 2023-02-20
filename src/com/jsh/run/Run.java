@@ -1,22 +1,22 @@
 package com.jsh.run;
 
-import com.jsh.study.H_Bfs;
+import com.jsh.study.A_TicTacToe;
 
 
 
 public class Run {
 	
 	public static void main(String[] args) {
-		H_Bfs h = new H_Bfs();
-		h.solution(new int[5][5]);
+//		H_Bfs h = new H_Bfs();
+//		h.solution(new int[5][5]);
 //		J_Collection j = new J_Collection();
 //		j.Test();
 		 // TicTacToe Game Start
-//		try {
-//			A_TicTacToe.GameStart();
-//		}catch(Exception e) {
-//			System.out.println(e);
-//		}
+		try {
+			A_TicTacToe.GameStart();
+		}catch(Exception e) {
+			System.out.println(e);
+		}
 //		
 //		// ArrayStudy
 //		B_ArrayStudy b = new B_ArrayStudy();

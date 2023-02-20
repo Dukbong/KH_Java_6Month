@@ -14,6 +14,7 @@ public class ReadStream2 {
 		String line = null;
 		while((line = br.readLine()) != null) {
 			out2.write(line);
+			out2.write("\n");
 		}
 		br.close();
 		out2.close();

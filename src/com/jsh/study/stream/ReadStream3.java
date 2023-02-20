@@ -16,7 +16,8 @@ public class ReadStream3 {
 		String str = null;
 		
 		while((str = br.readLine()) != null) {
-			st.append(str);
+			st.append(str).append("\n");
+			
 		}
 		out2.write(st.toString());
 		
