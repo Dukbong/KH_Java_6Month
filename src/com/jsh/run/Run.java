@@ -1,6 +1,6 @@
 package com.jsh.run;
 
-import com.jsh.study.A_TicTacToe;
+import com.jsh.study.B_ArrayStudy;
 
 
 
@@ -12,13 +12,13 @@ public class Run {
 //		J_Collection j = new J_Collection();
 //		j.Test();
 		 // TicTacToe Game Start
-		try {
-			A_TicTacToe.GameStart();
-		}catch(Exception e) {
-			System.out.println(e);
-		}
+//		try {
+//			A_TicTacToe.GameStart();
+//		}catch(Exception e) {
+//			System.out.println(e);
+//		}
 //		
-//		// ArrayStudy
+		// ArrayStudy
 //		B_ArrayStudy b = new B_ArrayStudy();
 //		b.study01();
 //		
